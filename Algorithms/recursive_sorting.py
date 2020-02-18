@@ -14,3 +14,7 @@ def binary_search_recursive(arr, target, low, high):
   else:
     low = middle + 1
 return binary_search_recursive(arr, target, low, high)
+
+#What would be the base case(s) we’d have to consider for implementing this function?
+
+#line 7 would be our base case such that when the length of the array is 0, execution stops
